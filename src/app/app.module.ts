@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlogModule } from './blog/blog.module';
+import { BookModule } from './book/book.module';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
